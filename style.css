@@ -1,0 +1,177 @@
+body{
+    background-color: black !important; 
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.navLinks{
+    margin: 0 auto;
+}
+nav{
+    background-color: black !important;       
+    position: sticky !important;
+    top: 0%;
+    width: 100%;
+    
+}
+nav a{
+    color: white !important;
+    cursor: pointer;
+}
+.videoDiv{
+    width: 70%;
+
+}
+.VideoHome{
+    width: 100%;
+}
+.formDiv{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 30%;
+    padding: 10px 10px;
+    height: 500px;
+    position: sticky;
+    top: 56px;
+}
+.formDiv .form {
+    
+    /* background-color: white;
+    color: black; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    /* height: 100%; */
+    padding: 10px;
+    border-radius: 31px;
+    box-shadow: 0px 0px 6px 2px white;
+    position: sticky;
+    top: 0;
+    height: 100%;
+
+
+}
+.formDiv .form p{
+    text-align:center;
+    font-weight: 400;
+}
+.formDiv .form input{
+      /* background-color: black; */
+      border: none;
+      margin: 4px 0px;
+      width: 100%;
+      font-size: 16px;
+      height: 33px;
+      padding: 22px;
+      border-radius: 15px;
+      outline: none;
+      /* border-bottom: 1px solid black; */
+
+}
+.videoDiv{
+    padding: 10px 10px;
+
+}
+.formDiv .form button{
+    background-color: blue;
+    border: none;
+    margin: 10px 0px;
+    width: 100%;
+    font-size: 16px;
+    height: 33px;
+    /* padding: 22px; */
+    border-radius: 15px;
+    outline: none;
+    font-weight: bolder;
+    color: white;
+    height: 50px;
+}
+.orderForm{
+    display: flex;
+    justify-content: space-between;
+}
+.productDetail h3{
+    color: white;
+    font-size: 31px;
+    padding: 15px 0px;
+}
+.productDetail h4{
+    color: white;
+    padding: 15px 0px;
+    font-size: 21px;
+}
+.productDetail {
+    color: white;
+}
+.reviewBox{
+    padding: 10px 40px;
+}
+
+.reviewDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+}
+.starDiv svg{
+        color: #ffb100;
+}
+.nameReview{
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.imageMore{
+    width: calc(100% / 3.2)  ;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.iamgaesDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+.detailtext{
+    font-size: 14px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .orderForm{
+        flex-direction: column;
+    }
+    .videoDiv{
+        width: 100%;
+    }
+    .formDiv{
+        width: 100%;
+        position: unset;
+        height: auto;
+    }
+    .navbar-toggler {
+     background: white !important;
+    }
+    .navbar-toggler svg {
+        width: 30px;
+        height: 30px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .reviewDiv{
+        flex-direction: column;
+    }
+    .iamgaesDiv{
+        flex-direction: column;
+    }
+    .imageMore{
+        width: 300px;
+        margin: 15px;
+    }
+}
+
